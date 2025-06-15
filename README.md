@@ -10,7 +10,7 @@ Brasília, junho de 2025
 
 ---
 
-## 📝 Descrição do Projeto
+##  Descrição do Projeto
 
 Este projeto implementa um sistema multitarefa embarcado usando FreeRTOS na plataforma BitDogLab. O sistema controla três periféricos de forma concorrente:
 
@@ -20,14 +20,14 @@ Este projeto implementa um sistema multitarefa embarcado usando FreeRTOS na plat
   - Botão A: suspende/retoma a tarefa do LED
   - Botão B: suspende/retoma a tarefa do buzzer
 
-## 🛠 Componentes Utilizados
+##  Componentes Utilizados
 
 - BitDogLab (Raspberry Pi Pico)
 - LED RGB (pinos 11, 12, 13)
 - Buzzer (pino 10)
 - Botões (pinos 5, 6)
 
-## 🔄 Tasks do FreeRTOS
+##  Tasks do FreeRTOS
 
 1. **LED RGB Task (Prioridade 1)**
    - Controla o ciclo de cores do LED RGB
@@ -42,7 +42,7 @@ Este projeto implementa um sistema multitarefa embarcado usando FreeRTOS na plat
    - Implementa debouncing de 200ms
    - Controla suspensão/retomada das outras tasks
 
-## 🚀 Como Executar
+##  Como Executar
 
 1. Clone o repositório
 2. Configure o ambiente de desenvolvimento:
@@ -55,7 +55,7 @@ Este projeto implementa um sistema multitarefa embarcado usando FreeRTOS na plat
    ```
 3. Carregue o programa na BitDogLab
 
-## 🎯 Funcionalidades
+##  Funcionalidades
 
 - LED RGB alterna automaticamente entre as cores
 - Buzzer emite bipes periodicamente
@@ -64,7 +64,7 @@ Este projeto implementa um sistema multitarefa embarcado usando FreeRTOS na plat
 - Debouncing implementado nos botões
 - Prioridades diferentes para cada task
 
-## 📚 Referências
+##  Referências
 
 - [FreeRTOS Documentation](https://www.freertos.org/Documentation/RTOS_book.html)
 - [Raspberry Pi Pico Documentation](https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html)
